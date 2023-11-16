@@ -1,0 +1,3 @@
+packages:
+  - "fbx-editor-backend"
+  - "fbx-editor-frontend"

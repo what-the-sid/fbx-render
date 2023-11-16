@@ -1,0 +1,19 @@
+{
+  "name": "fbx-render",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start:node": "cd fbx-editor-backend && npm run start",
+    "start:react": "cd fbx-editor-frontend && npm run start",
+    "start": "concurrently \"pnpm run start:node\" \"pnpm run start:react\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sid Narayanan (iamisidhaarth@gmail.com)",
+  "license": "ISC"
+}
