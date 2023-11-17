@@ -41,3 +41,8 @@ pnpm start
 This command utilizes the `concurrency` tool to run both the backend and frontend components simultaneously.
 
 ## Demo
+
+https://github.com/what-the-sid/fbx-render/assets/9461670/963a07f5-6de5-4fbb-ac80-a2abf6464270
+
+
+
