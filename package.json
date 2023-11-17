@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-  },
   "devDependencies": {
     "concurrently": "^8.2.2"
   },
@@ -15,5 +13,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sid Narayanan (iamisidhaarth@gmail.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sequelize-cli": "^6.6.1",
+    "sqlite3": "^5.1.6"
+  }
 }

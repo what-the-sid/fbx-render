@@ -1,7 +1,7 @@
 #!/bin/bash
+pip install -r requirements.txt
 
 npm i -g pnpm
-pnpm i
 
 export NODE_ENV=development
 export APP_PORT=4000
@@ -9,10 +9,9 @@ export DB_NAME=data.test.sqlite
 export DB_DIALECT=sqlite
 echo "exported ENV Variables ✅"
 
-npm i
-npm i sequelize-cli
-npm i webpack-cli
-npm i sqlite3
+pnpm i
+pnpm add sequelize-cli -w
+pnpm add sqlite3 -w
 echo "installed dependencies ✅"
 
 echo "Migrated tables ✅"
