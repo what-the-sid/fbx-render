@@ -3,6 +3,8 @@
 
 Welcome to the FBX Render repository!
 
+API Documentation: [Postman link](https://documenter.getpostman.com/view/25655079/2s9YXpVysq)
+
 ## Prerequisites
 
 Before you start, make sure you have `nvm` (Node Version Manager) installed to manage different Node.js versions. We recommend using Node.js version `16.20.1` for this application.
@@ -43,6 +45,3 @@ This command utilizes the `concurrency` tool to run both the backend and fronten
 ## Demo
 
 https://github.com/what-the-sid/fbx-render/assets/9461670/963a07f5-6de5-4fbb-ac80-a2abf6464270
-
-
-

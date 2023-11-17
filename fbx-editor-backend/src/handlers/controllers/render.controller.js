@@ -17,6 +17,7 @@ class RenderController {
 		const scriptPath = process.cwd()+'/render-scripts/' + "find_properties.py";
 
 		const properties = extractJSON(await executer(scriptPath,[filePath]))[0]
+		console.log(properties)
 
 		const modelData = {
 			fileName: uploadedFilename,
